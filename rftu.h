@@ -94,7 +94,7 @@ uint16_t checksum_calculate();
 void send_command(uint8_t cmd, struct sockaddr *sockaddr, unsigned int slen);
 
 // Sender's functions
-uint8_t *get_filename(char *path);
+uint8_t get_filename(char *path);
 uint64_t get_filesize(char *path);
 uint8_t check_file_exist(char *path);
 uint8_t check_ip(char *ip, char *port);

@@ -67,7 +67,10 @@ void send_command(uint8_t cmd, struct sockaddr *sockaddr, unsigned int slen)
 
 int check_space(int file_size)
 {
-    return 1;
+    if (file_size>0)
+    	return 1;
+    else
+	return 0;
 }
 
 uint16_t gen_id()

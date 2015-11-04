@@ -25,7 +25,7 @@ uint16_t datasize;
 
 int main()
 {
-	
+	return 1;	
 }
 
 /**
